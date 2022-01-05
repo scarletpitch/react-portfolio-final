@@ -11,7 +11,7 @@ import BigTitle from '../subComponents/BigTitlte'
 import astronaut from '../assets/Images/spaceman.png'
 
 const Box = styled.div`
-background-color: ${props => props.theme.body};
+background-color: #362745};
 width: 100vw;
 height:100vh;
 position: relative;
@@ -28,15 +28,15 @@ position: absolute;
 top: 10%;
 right: 5%;
 width: 20vw;
-animation: ${float} 4s ease infinite;
+animation: ${float} 3s ease infinite;
 img{
     width: 100%;
     height: auto;
 }
 `
 const Main =  styled.div`
-  border: 2px solid ${(props) => props.theme.text};
-  color: ${(props) => props.theme.text};
+  border: 0px solid ${(props) => props.theme.text};
+  color: #ffffcc;
   padding: 2rem;
   width: 50vw;
   height: 60vh;
@@ -45,8 +45,8 @@ const Main =  styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(0.6rem + 1vw);
- backdrop-filter: blur(4px);
+  font-size: calc(0.4rem + 1vw);
+ backdrop-filter: blur(2px);
   
   position: absolute;
   left: calc(5rem + 5vw);
@@ -72,15 +72,15 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a back-end developer located in Bangkok, Thailand. I graduated from Chulalongkorn University, major in survey engineering.
-        <br /> <br/>
-        I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
         <br/> <br/>
-        I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
+        I'm working as a back-end developer located in Bangkok, Thailand. 
+        <br/> <br/>
+        The starting point was that I had a chance to work in this career path when I had freshly graduated with no clue about web development but I ended up fell in love with it. I'm so eager to learn more about coding skills and techniques from the best.
+        <br/> <br/>
+        I love to play sports and read books. My life goals are fininhing a full marathon and mastering free-diving.
         <br/> <br/>
         I believe that the amount of effort you put in is the amount of results you will eventually end up with. Keep doing and do not stop.  
-        <br/><br/>
-        You can connect with me via provided social links.
+        <br/> <br/>
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
