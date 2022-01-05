@@ -142,7 +142,7 @@ VScode, Github, Codepen etc.
 
             </Main>
 
-            <BigTitle text="SKILLS" top="80%" right="30%" />
+            <BigTitle text="Skills" top="80%" right="30%" />
 
         </Box>
 

@@ -26,7 +26,7 @@ align-items: center;
 const Main = styled(motion.ul)`
 position: fixed;
 top: 12rem;
-left:calc(10rem + 15vw);
+left:calc(10rem + 10vw);
 height: 40vh;
 display: flex;
 
@@ -105,7 +105,7 @@ const WorkPage = () => {
     <YinYang width={80} height={80} fill={DarkTheme.text} />
 </Rotate>
 
-<BigTitlte text="WORK" top='10%' right="20%" />
+<BigTitlte text="Work" top='5%' right="5%" />
         </Box>
 
         </ThemeProvider>

@@ -11,7 +11,7 @@ import BigTitle from '../subComponents/BigTitlte'
 import astronaut from '../assets/Images/spaceman.png'
 
 const Box = styled.div`
-background-color: #362745};
+background-color: #202531};
 width: 100vw;
 height:100vh;
 position: relative;
@@ -83,7 +83,7 @@ const AboutPage = () => {
         <br/> <br/>
         </Main>
 
-        <BigTitle text="ABOUT" top="10%" left="5%" />
+        <BigTitle text="About" top="10%" left="5%" />
 
 
         </Box>
