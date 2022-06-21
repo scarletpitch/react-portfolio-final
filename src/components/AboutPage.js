@@ -73,13 +73,13 @@ const AboutPage = () => {
         </Spaceman>    
         <Main>
         <br/> <br/>
-        I'm working as a back-end developer located in Bangkok, Thailand. 
+        I'm working as a full stack developer located in Bangkok, Thailand. 
         <br/> <br/>
         The starting point was that I had a chance to work in this career path when I had freshly graduated with no clue about web development but I ended up fell in love with it. I'm so eager to learn more about coding skills and techniques from the best.
         <br/> <br/>
         I love to play sports and read books. My life goals are fininhing a full marathon and mastering free-diving.
         <br/> <br/>
-        I believe that the amount of effort you put in is the amount of results you will eventually end up with. Keep doing and do not stop.  
+        I believe that the amount of effort you put in is the amount of results you will eventually end up with. Keep doing and do not stop. You only live once, live a life that you will remember. 
         <br/> <br/>
         </Main>
 
