@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import {lightTheme} from './Themes';
-import { Design, Develope} from './AllSvgs';
+import { Design, Develope, Cloud} from './AllSvgs';
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -93,36 +93,29 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+    <Develope width={40} height={40} /> Backend Developer
 </Title>
 <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
+I love solving problems and always find the best way to achieve it.
 </Description>
 <Description>
-<strong>I like to Design</strong>
+<strong>Skills</strong>
 <ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
+#PHP  #Laravel  #Vue.js  #Bootstrap  #HTML  #CSS  #JavaScript  #SQL
+
 </ul>
 </Description>
 <Description>
 <strong>Tools</strong>
 <ul>
-    <li>
-       Figma
-    </li>
-    
+VScode, Github, Bitbucket, Sequel Pro, Sourcetree
 </ul>
 </Description>
 
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Cloud width={40} height={40} /> Amazon Cloud Service
 </Title>
 <Description>
 I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
